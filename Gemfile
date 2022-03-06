@@ -7,5 +7,6 @@ gem "sinatra-contrib"
 gem "erubis"
 
 group :production do
+  ruby "2.7.5"
   gem "puma"
 end
