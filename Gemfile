@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
-ruby "2.6.3"
+group :development do
+  ruby "2.6.3"
+end
 
 gem "sinatra", "~>1.4.7"
 gem "sinatra-contrib"
